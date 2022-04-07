@@ -2,7 +2,12 @@ package br.com.mariojp.condominio.model;
 
 public class Usuario {
 
+	public Usuario(String login, String senha) {
+		this.login = login;
+		this.senha = senha;
+	}
 	
+	public Usuario() {}
 	
 	private String login;
 	private String senha;
