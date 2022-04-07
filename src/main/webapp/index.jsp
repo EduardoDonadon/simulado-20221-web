@@ -44,7 +44,7 @@
       PARTE 2
       </p>
       <p>
-Exiba a lista de usuarios. 
+			Exiba a lista de usuarios. 
       <ul>
        <li> Edite o UsuarioListController que deve pesquiasr a lista de usuario e repassar ao lista.jsp 
        <li> Edite o lista.jsp que exibe a lista de usuarios.

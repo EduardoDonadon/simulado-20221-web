@@ -15,7 +15,11 @@
     <h1 class="display-5 fw-bold">LISTA DE USUARIOS</h1>
    
       <!--  SEU CODIGO AQUI -->
-    
+      <ul>
+	      <c:forEach var="u" items="${users}">
+	      	<li>${u.login}	      	
+	      </c:forEach>
+   	  </ul>
     </div>
 </div>
 
